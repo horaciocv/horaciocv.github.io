@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+  }
+  
+  .container {
+	width: 90%;
+	margin: auto;
+  }
+  
+  /* Estilos de la barra de navegación */
+  nav {
+	background-color: #1E90FF;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+  }
+  
+  nav a {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	margin-right: 10px;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+	background-color: #FFF;
+	color: #1E90FF;
+  }
+  
+  nav a.active {
+	background-color: #FFF;
+	color: #1E90FF;
+  }
+  
+  /* Estilos de la sección de inicio */
+  #inicio {
+	background-color: #F8F8FF;
+	padding: 50px 0;
+  }
+  
+  #inicio img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+  }
+  
+  /* Estilos de la sección de antecedentes */
+  #antecedentes {
+	background-color: #FFF;
+	padding: 50px 0;
+  }
+  
+  #antecedentes h2 {
+	color: #1E90FF;
+  }
+  
+  #antecedentes .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 30px;
+  }
+  
+  #antecedentes .col {
+	margin: 10px;
+	text-align: center;
+  }
+  
+  #antecedentes .col img {
+	max-width: 100%;
+  }
+  
+  #antecedentes .col p {
+	margin-top: 10px;
+  }
